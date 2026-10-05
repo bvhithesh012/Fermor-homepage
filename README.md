@@ -84,7 +84,23 @@ The tool grid is responsive:
 - **400px:** 2 columns
 - **768px:** 3 columns
 - **1024px+:** 6 columns
+## Screenshots
 
+### Desktop Homepage
+
+![Fermor Homepage Desktop](./screenshots/homepage-desktop.png)
+
+### Mobile Homepage
+
+![Fermor Homepage Mobile](./screenshots/homepage-mobile.png)
+
+### SIP Calculator
+
+![Fermor SIP Calculator](./screenshots/sip-calculator.png)
+
+### Market Intelligence
+
+![Fermor Market Intelligence](./screenshots/markets.png)
 ### 📱 Responsive Design
 
 The application was tested across:
