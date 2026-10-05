@@ -4,11 +4,13 @@ A responsive financial intelligence homepage built with Next.js and TypeScript. 
 
 ## Live Demo
 
-🌐 **Live Website:** https://fermor-homepage-pi.vercel.app/
+🌐 **Live Website:**  
+https://fermor-homepage-pi.vercel.app/
 
 ## GitHub Repository
 
-🔗 **Repository:** https://github.com/bvhithesh012/Fermor-homepage
+🔗 **Repository:**  
+https://github.com/bvhithesh012/Fermor-homepage
 
 ---
 
@@ -48,6 +50,7 @@ Provides a quick overview of financial information including:
 - Market data
 - Financial indicators
 - Summary cards
+- Portfolio performance visualization
 
 ### 🧮 SIP Calculator
 
@@ -71,13 +74,23 @@ Includes market information such as:
 
 - NIFTY 50
 - SENSEX
+- NIFTY IT
 - Market movement
 - Market pulse
-- Market-related information
+- Selected stock information
+
+> Market figures displayed in the application are illustrative data for demonstration purposes and are not intended to represent live financial market data.
 
 ### 🛠️ Financial Tools
 
-The financial tools section provides quick access to different financial utilities.
+The financial tools section provides quick access to different financial utilities, including:
+
+- SIP
+- EMI
+- FD
+- Income Tax
+- PPF
+- Compound Interest
 
 The tool grid is responsive:
 
@@ -103,7 +116,28 @@ The layout was checked for:
 - Calculator layout
 - Market cards
 - Tool grid responsiveness
-- Sticky header and anchor scrolling
+- Sticky header behavior
+- Anchor scrolling
+
+---
+
+## Screenshots
+
+### Desktop Homepage
+
+![Fermor Desktop Homepage](./screenshots/homepage-desktop.png)
+
+### Mobile Homepage
+
+![Fermor Mobile Homepage](./screenshots/homepage-mobile.png)
+
+### SIP Calculator
+
+![Fermor SIP Calculator](./screenshots/sip-calculator.png)
+
+### Market Intelligence
+
+![Fermor Market Intelligence](./screenshots/markets.png)
 
 ---
 
@@ -115,7 +149,8 @@ The layout was checked for:
 - React
 - TypeScript
 - CSS
-- Responsive CSS / Media Queries
+- Responsive CSS
+- Media Queries
 
 ### Development
 
@@ -148,6 +183,12 @@ fermor-homepage/
 │   ├── MarketIntelligence.tsx
 │   ├── Navbar.tsx
 │   └── SipCalculator.tsx
+│
+├── screenshots/
+│   ├── homepage-desktop.png
+│   ├── homepage-mobile.png
+│   ├── markets.png
+│   └── sip-calculator.png
 │
 ├── public/
 │
