@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fermor Homepage
 
-## Getting Started
+A responsive financial intelligence homepage built with Next.js and TypeScript. The project provides a clean interface for users to understand their finances, explore financial tools, calculate SIP projections, and view market information.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🌐 **Live Website:** https://fermor-homepage-pi.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## GitHub Repository
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 **Repository:** https://github.com/bvhithesh012/Fermor-homepage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Overview
 
-To learn more about Next.js, take a look at the following resources:
+Fermor is a responsive financial homepage designed to provide a simple and modern experience for exploring financial information.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The homepage includes:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Hero section with primary calls to action
+- Financial dashboard
+- Financial tools
+- SIP calculator
+- Market intelligence section
+- Market pulse and index information
+- Responsive navigation
+- Responsive layouts across mobile, tablet, and desktop
 
-## Deploy on Vercel
+The interface is designed to remain usable and visually consistent across different screen sizes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Features
+
+### 🏠 Hero Section
+
+- Clear financial-focused headline
+- Primary "Get Started" CTA
+- Secondary exploration CTA
+- Responsive layout for mobile and desktop
+
+### 📊 Financial Dashboard
+
+Provides a quick overview of financial information including:
+
+- Portfolio-related information
+- Market data
+- Financial indicators
+- Summary cards
+
+### 🧮 SIP Calculator
+
+The SIP calculator allows users to enter:
+
+- Monthly investment
+- Expected annual return
+- Investment duration
+
+The calculator provides:
+
+- Estimated invested amount
+- Estimated returns
+- Projected total value
+
+The calculations update dynamically based on the selected inputs.
+
+### 📈 Market Intelligence
+
+Includes market information such as:
+
+- NIFTY 50
+- SENSEX
+- Market movement
+- Market pulse
+- Market-related information
+
+### 🛠️ Financial Tools
+
+The financial tools section provides quick access to different financial utilities.
+
+The tool grid is responsive:
+
+- **400px:** 2 columns
+- **768px:** 3 columns
+- **1024px+:** 6 columns
+
+### 📱 Responsive Design
+
+The application was tested across:
+
+- 400 × 546
+- 768 × 800
+- 1024 × 800
+- 1440 × 900
+
+The layout was checked for:
+
+- Horizontal overflow
+- Content clipping
+- Responsive navigation
+- CTA alignment
+- Calculator layout
+- Market cards
+- Tool grid responsiveness
+- Sticky header and anchor scrolling
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- CSS
+- Responsive CSS / Media Queries
+
+### Development
+
+- Node.js
+- npm
+- ESLint
+- Git
+- GitHub
+
+### Deployment
+
+- Vercel
+
+---
+
+## Project Structure
+
+```text
+fermor-homepage/
+│
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── FinancialDashboard.tsx
+│   ├── FinancialTools.tsx
+│   ├── Hero.tsx
+│   ├── MarketIntelligence.tsx
+│   ├── Navbar.tsx
+│   └── SipCalculator.tsx
+│
+├── public/
+│
+├── next.config.ts
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
